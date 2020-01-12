@@ -39,7 +39,7 @@ public class TimeZoneTranslatorTest {
 		assertEquals("2020-01-01 05:00:00", shiftedDateTime.toString());
 		
 
-		DateTime shiftedDateTime2 = TimeZoneTranslator.shiftTimeZone(testDateTime, 0, 1);
+		DateTime shiftedDateTime2 = TimeZoneTranslator.shiftTimeZone(testDateTime2, 0, 1);
 		assertEquals("2020-03-01 00:00:00", shiftedDateTime2.toString());
 	}
 
